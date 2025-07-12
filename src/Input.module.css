@@ -1,0 +1,49 @@
+.input {
+  position: relative;
+  background-color: #4081eb;
+  width: 300px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.input label {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 20px;
+  font-size: 20px;
+}
+
+.input input {
+  width: 100%;
+  padding: 9px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.suggestions {
+  margin-top: 8px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: #fff;
+  list-style: none;
+  padding: 0;
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.suggestions li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  background-color: #f0f0f0;
+}
+
+.input p {
+  text-align: center;
+  font-size: 20px;
+}
